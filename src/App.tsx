@@ -9,7 +9,7 @@ const SAMPLE_IMAGES = [
   '/5.png',
 ];
 
-const PRICE_PER_SQFT = 99; // RD$ por pie cuadrado
+const PRICE_PER_SQFT = 79; // RD$ por pie cuadrado
 
 function formatRD(amount: number) {
   try {
