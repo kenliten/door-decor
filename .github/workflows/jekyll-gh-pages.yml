@@ -42,7 +42,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build  # Ensure this matches your React build output directory
+          path: ./dist  # Ensure this matches your React build output directory
 
   # Deployment job
   deploy:
