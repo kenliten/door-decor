@@ -118,7 +118,7 @@ export default function DoorVinylShop() {
               <p className="text-sm text-neutral-500 -mt-1">Vinil adhesivo a la medida — RD$ {PRICE_PER_SQFT}/ft²</p>
             </div>
           </div>
-          <button className="px-4 py-2 rounded-2xl bg-neutral-900 text-white hover:bg-neutral-800 transition">Contactar</button>
+          <a href="https://wa.me/+18094659650" target="_blank" className="px-4 py-2 rounded-2xl bg-neutral-900 text-white hover:bg-neutral-800 transition">Contactar</a>
         </div>
       </header>
 
@@ -222,8 +222,8 @@ export default function DoorVinylShop() {
               <p className="text-2xl font-semibold">{formatRD(total)}</p>
             </div>
             <div className="flex gap-3">
-              <button className="px-5 py-3 rounded-2xl bg-neutral-900 text-white hover:bg-neutral-800 transition">Agregar al carrito</button>
-              <button className="px-5 py-3 rounded-2xl border border-neutral-300 hover:bg-neutral-100 transition">Solicitar instalación</button>
+              <a href="https://wa.me/+18094659650" className="px-5 py-3 rounded-2xl bg-neutral-900 text-white hover:bg-neutral-800 transition">Agregar al carrito</a>
+              <a href="https://wa.me/+18094659650" className="px-5 py-3 rounded-2xl border border-neutral-300 hover:bg-neutral-100 transition">Solicitar instalación</a>
             </div>
           </div>
         </section>
@@ -296,7 +296,7 @@ export default function DoorVinylShop() {
                   <p className="text-xl font-semibold">Total: {formatRD(total)}</p>
                   <p className="text-xs opacity-80 mt-1">Incluye {quantity} unidad(es). Impuestos/aplicaciones adicionales se calculan al finalizar la compra.</p>
                   <div className="mt-3 flex gap-3 justify-center">
-                    <button className="px-4 py-2 rounded-2xl bg-white text-neutral-900 hover:bg-neutral-100 transition">Continuar compra</button>
+                    <a href="https://wa.me/+18094659650" className="px-4 py-2 rounded-2xl bg-white text-neutral-900 hover:bg-neutral-100 transition">Continuar compra</a>
                   </div>
                 </div>
 
